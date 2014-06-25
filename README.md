@@ -46,5 +46,6 @@ taggie.user('ltebean').tag(['web','js']).itemsByUnion(function(err,res){
 
 taggie.user('ltebean').item('nodjs').removeTag('js', function(err, res) {});
 
-
 ```
+
+more example see test/index.js
